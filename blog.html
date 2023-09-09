@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar flex flex-col md:flex-row justify-between gap-2">
+            <div class="">
+                <img src="./images/Logo.png" alt="">
+            </div>
+
+            <div class="">
+                <button id="back-to-home" class="btn btn-error bg-[#FF1F3D] text-white">Home</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="blog-container" class="">
+            <!-- <div class="bg-orange-400 p-4 my-4">
+                <h1 class="text-3xl text-center font-bold p-2">The scope of `var`, `let`, and `const`</h1>
+                <div class="flex flex-col md:flex-row gap-4 bg-slate-500 m-4 p-4">
+                    <div>
+                        <p>var:</p>
+                        <ul>
+                            <li>Variables declared with var have function-level scope.</li>
+                            <li>They are function-scoped, which means they are only accessible within the function
+                                where they are declared.</li>
+                            <li>If declared outside a function, they become global variables, accessible throughout
+                                the
+                                entire program.</li>
+                        </ul>
+                        <img src="./images/var.png" alt="">
+                    </div>
+
+                    <div>
+                        <p>let:</p>
+                        <ul>
+                            <li>Variables declared with let have block-level scope</li>
+                            <li>They are block-scoped, which means they are only accessible within the block
+                                (between {}) where they are declared.</li>
+                        </ul>
+                        <img src="./images/let.png" alt="">
+                    </div>
+
+                    <div>
+                        <p>const:</p>
+                        <ul>
+                            <li>const also has block-level scope like let.</li>
+                            <li>The difference is that const variables cannot be reassigned after they are declared.
+                                However, the value they hold (if it's an object or array) can be modified.</li>
+                        </ul>
+                        <img src="./images/const.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-red-400 p-4 my-4">
+                <h1 class="text-3xl text-center font-bold p-2">Use Cases of null and undefined</h1>
+                <div class="flex flex-col md:flex-row gap-4 bg-slate-500 m-4 p-4">
+                    <div>
+                        <p>null:</p>
+                        <ul>
+                            <li>null is a value that represents the intentional absence of any object value or value
+                                assignment.</li>
+                            <li>It is often used to explicitly indicate that a variable or property has no value.
+                            </li>
+                        </ul>
+                        <img src="./images/null.png" alt="">
+                    </div>
+
+                    <div>
+                        <p>undefined:</p>
+                        <ul>
+                            <li>undefined is a value that indicates a variable or property has been declared but has
+                                not been assigned a value.</li>
+                            <li>It can also occur as the result of evaluating an expression that does not return a
+                                value.</li>
+                        </ul>
+                        <img src="./images/undifind.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-lime-400 p-4 mt-4">
+                <h1 class="text-3xl text-center font-bold p-2">REST API (Representational State Transfer API)</h1>
+                <div class="flex flex-col md:flex-row gap-4 bg-slate-500 m-4 p-4">
+                    <div class="gap-4">
+                        <p>REST (Representational State Transfer) is an architectural style for designing networked
+                            applications. A RESTful API is an API that adheres to the principles and constraints of
+                            REST.</p>
+                        <p>Key principles of REST:</p>
+                        <ol>
+                            <li>Stateless: Each request from a client to a server must contain all the information
+                                needed to understand and process the request.</li>
+                            <li>Client-Server Architecture: There is a clear separation between the client
+                                (front-end) and the server (back-end).</li>
+                            <li>Uniform Interface: The API should have a consistent and uniform way of interacting
+                                with resources through standard HTTP methods like GET, POST, PUT, DELETE.</li>
+                            <li>Resource-Based: Resources are identified by unique URIs (Uniform Resource
+                                Identifiers), and they can be manipulated using standard HTTP methods.</li>
+                        </ol>
+                        <p>Example of a REST API request:</p>
+                        <img src="./images/rest-api.png" alt="">
+                        <p>In this example, a GET request is made to retrieve user data with the ID 123. The URI
+                            /api/users/123 uniquely identifies the resource (user) to access. <br>
+
+                            A typical REST API will have endpoints for different resources (e.g., users, products)
+                            and use HTTP methods to perform operations on these resources (e.g., GET to retrieve,
+                            POST to create, PUT to update, DELETE to delete). <br>
+
+                            Here's a simplified JavaScript code snippet that makes a GET request to a REST API using
+                            the Fetch API:</p>
+                        <img src="./images/get-req.png" alt="">
+                        <p>This code sends a GET request to retrieve user data and handles the response asynchronously.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <script src="./js/blog.js"></script>
+</body>
+
+</html>

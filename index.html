@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="mx-8">
+    <header>
+        <div class="navbar flex flex-col md:flex-row justify-between gap-2">
+            <div class="">
+                <img src="./images/Logo.png" alt="">
+            </div>
+            <div class="">
+                <button id="sorting-btn" class="btn">Sort by view</button>
+            </div>
+            <div class="">
+                <button id="show-blog" class="btn btn-error bg-[#FF1F3D] text-white">Blog</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="categories flex justify-center">
+            <div id="tab-categories" class="flex flex-col md:flex-row items-center">
+                <!-- <a class="tab tab-active">All</a>
+                <a class="tab">Music</a>
+                <a class="tab">Comedy</a>
+                <a class="tab">Drawing</a> -->
+            </div>
+        </div>
+        <div>
+            <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="">
+                        <img src="" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body text-left">
+                        <figure class="">
+                            <img src="" alt="" class="rounded-xl" />
+                        </figure>
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <!-- <script src="./js/api_manage.js"></script> -->
+    <script src="./js/sortView.js"></script>
+    <script src="./tailwind.config.js"></script>
+</body>
+
+</html>
